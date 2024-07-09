@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login_InvalidUsername</description>
+   <name>TC_002_Login_InvalidUsername</name>
+   <tag>smoke, login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6ca5484a-fb0e-4578-a87f-1484489305f8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>02ac9d6c-b203-4912-abcf-511afdfa6343</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2b34e12-d877-490b-848c-ef509bacbc09</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>02ac9d6c-b203-4912-abcf-511afdfa6343</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <description></description>
+      <id>e2b34e12-d877-490b-848c-ef509bacbc09</id>
+      <masked>false</masked>
+      <name>passWord</name>
+   </variable>
+</TestCaseEntity>

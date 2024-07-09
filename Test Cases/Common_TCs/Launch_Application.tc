@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Launching Application in Browser</description>
+   <name>Launch_Application</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e0f748b4-8043-41ed-ab8f-039fcab0fc07</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c0c985d-6ea4-477c-9fdc-b706c55145e5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.APPLICATION_URL</defaultValue>
+      <description></description>
+      <id>9c0c985d-6ea4-477c-9fdc-b706c55145e5</id>
+      <masked>false</masked>
+      <name>appURL</name>
+   </variable>
+</TestCaseEntity>

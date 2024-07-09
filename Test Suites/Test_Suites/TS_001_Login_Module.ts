@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>All Login Test Cases</description>
+   <name>TS_001_Login_Module</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>a469e08e-34d9-458b-a788-a8b350de2596</testSuiteGuid>
+   <testCaseLink>
+      <guid>c9652a6e-fe31-4168-ba1b-41b831448a76</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test_Modules/Login/TC_001_Login_ValidCredentials</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>08422061-56e6-48a3-9a1e-f1c9c866be7b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login_TestData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>08422061-56e6-48a3-9a1e-f1c9c866be7b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>02ac9d6c-b203-4912-abcf-511afdfa6343</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>08422061-56e6-48a3-9a1e-f1c9c866be7b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e2b34e12-d877-490b-848c-ef509bacbc09</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f0d43fc5-190e-4bb8-a39e-e36b394f0bf7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test_Modules/Login/TC_002_Login_InvalidUsername</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7043a423-5ca1-4c53-893c-7a298c951207</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login_TestData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>7043a423-5ca1-4c53-893c-7a298c951207</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Invalid_Uname</value>
+         <variableId>02ac9d6c-b203-4912-abcf-511afdfa6343</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7043a423-5ca1-4c53-893c-7a298c951207</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e2b34e12-d877-490b-848c-ef509bacbc09</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>03a0471e-7e46-41b7-8691-ceb7079f1600</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test_Modules/Login/TC_003_Login_InvalidPassword</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4c00c180-4921-462c-9c28-2363e50a018c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login_TestData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4c00c180-4921-462c-9c28-2363e50a018c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>02ac9d6c-b203-4912-abcf-511afdfa6343</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4c00c180-4921-462c-9c28-2363e50a018c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Invalid_Enc_Pword</value>
+         <variableId>e2b34e12-d877-490b-848c-ef509bacbc09</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2642a72a-41ac-4338-bb71-32dc207c6af8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test_Modules/Login/TC_004_Login_NoCredentials</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>
